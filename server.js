@@ -19,13 +19,25 @@ const configuration = new Configuration({
     apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
-// const response = await openai.listEngines();
-//
 
-app.post('/',(req, res) => {
-    res.json({ message: "Hello  crazy World!" })
+//
+app.use(bodyParser.json());
+app.use(cors());
+
+app.post('/', async (req, res) => {
+    // res.json({ message: "Hello  crazy World!" })
+    const response = await openai.createCompletion({
+        model: "text-davinci-003",
+        prompt: "Say this is a test",
+        max_tokens: 7,
+        temperature: 0,
+      });
+      console.log(response.data);
+      res.json({
+        message: "hello worlddddd"
+    })
 })
 
 app.listen(port, () =>{
-    console.log("listening on port 3000")
+    console.log("example app listening on port", port)
 })
