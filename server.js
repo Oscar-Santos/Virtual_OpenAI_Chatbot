@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post('/', async (req, res) => {
-    // res.json({ message: "Hello  crazy World!" })
+    // model completion from opean ai documentation (model davinci)
     const response = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: "Say this is a test",
@@ -33,11 +33,17 @@ app.post('/', async (req, res) => {
         temperature: 0,
       });
       console.log(response.data);
-      res.json({
-        message: "hello worlddddd"
-    })
-})
+      // now parsing the exact nested response from opeanai to the FE
+      if (response.data) {
+        if (response.data.choices) {
+            res.json({
+                message: response.data.choices[0].text
+            })
+        }
+      }
 
+})
+// listening on port 3000
 app.listen(port, () =>{
     console.log("example app listening on port", port)
 })
