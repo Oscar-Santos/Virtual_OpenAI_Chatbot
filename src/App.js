@@ -8,7 +8,7 @@ export default function App() {
     
     function handleSubmit(e) {
         e.preventDefault();
-        fetch("http://localhost:3000", {
+        fetch("http://localhost:3001", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

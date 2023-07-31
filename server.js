@@ -11,7 +11,7 @@ const cors = require('cors')
 
 
 const app = express()
-const port = 3000
+const port = 3001
 
 // setup of the API call
 const configuration = new Configuration({
@@ -25,11 +25,13 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post('/', async (req, res) => {
+
+    const { message } = req.body; // creating the message for the prompt
     // model completion from opean ai documentation (model davinci)
     const response = await openai.createCompletion({
         model: "text-davinci-003",
-        prompt: "Say this is a test",
-        max_tokens: 7,
+        prompt: `${message}`,
+        max_tokens: 150,
         temperature: 0,
       });
       console.log(response.data);
