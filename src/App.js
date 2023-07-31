@@ -1,37 +1,26 @@
 
-import { useState } from "react";
-import './App.css';
+    import { Routes, Route } from "react-router-dom";
 
-export default function App() {
-    const [message, setMessage] = useState("")
-    const [response, setResponse] = useState("")
+    import { useState } from "react";
+    import './App.css';
+    import About from "./pages/About";
+    import Documentation from "./pages/Documentation";
+    import Nav from "./components/Nav";
+    import Chatbox from "./pages/Chatbox";
     
-    function handleSubmit(e) {
-        e.preventDefault();
-        fetch("http://localhost:3001", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ message })
-        })
-        .then(res => res.json())
-        .then(data => setResponse(data.message))
-        .catch(err => console.log(err))
-    }
-    
-    return (
-        <div className="app">
-            <form onSubmit={handleSubmit}>
-                <input
-                type="text"
-                placeholder="Enter a message..."
-                value={message}
-                onChange={e => setMessage(e.target.value)}
-                />
-                <button type="submit">Send</button>
-            </form>
-            <p>{response}</p>
-        </div>
-    );
-    }
+    export default function App() {
+
+        
+        return (
+            <div className="app">
+                <div>
+                        <Nav />
+                        <Routes>
+                            <Route path="/about" element={<About />}/>
+                            <Route path="/chatbox" element={<Chatbox />}/>
+                            <Route path="/documentation" element={<Documentation />}/>           
+                        </Routes>
+                 </div>    
+            </div>
+        );
+        }
