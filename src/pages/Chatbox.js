@@ -25,13 +25,19 @@ export default function Chatbox() {
     <div className="chatbox-container">
       <div className="chatbox">
         <div className="chatbox-header">
-            <img src={Image11} width="450px" height="120px" alt="" />
+          <img src={Image11} width="450px" height="120px" alt="" />
           <h1>ChatGPT</h1>
           <p>AI-Powered Chatbot</p>
         </div>
         <div className="chatbox-messages">
           <p className="user-message">{message}</p>
-          {response && <p className="bot-message">{response}</p>}
+          {response && (
+            <div className="bot-message">
+              {response.split('\n\n').map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+          )}
         </div>
         <form className="chatbox-form" onSubmit={handleSubmit}>
           <input
@@ -42,7 +48,6 @@ export default function Chatbox() {
           />
           <button type="submit">Send</button>
         </form>
-
       </div>
     </div>
   );
