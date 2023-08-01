@@ -5,15 +5,15 @@ export default function Nav(props) {
         <div className="nav">
  
             <Link to="/about">
-                <div>About Page</div>
+                <div>About </div>
             </Link>
 
             <Link to="/chatbox">
-                <div>Chatbox Page</div>
+                <div>Chatbot Page</div>
             </Link>
 
             <Link to="/documentation">
-                <div>Documentation Page</div>
+                <div>OpenAI API Documentation </div>
             </Link>
 
         </div>
