@@ -1,6 +1,5 @@
 
     import { Routes, Route } from "react-router-dom";
-    import './About.css'
     import { useState } from "react";
     import './App.css';
     import About from "./pages/About";
@@ -23,4 +22,4 @@
                  </div>    
             </div>
         );
-        }
+    }

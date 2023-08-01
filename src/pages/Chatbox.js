@@ -1,7 +1,7 @@
 
 import { useState } from "react";
-import "../Chatbox.css"; // Import custom CSS styles for the chatbox (create this file separately)
-import Image6 from '../images/image_6.png';
+import "../Chatbox.css"; // Import custom CSS styles for the chatbox 
+
 import Image11 from '../images/image_11.jpeg';
 export default function Chatbox() {
   const [message, setMessage] = useState("");

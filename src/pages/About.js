@@ -1,8 +1,4 @@
 
-import Image8 from '../images/image_8.png';
-import Image1 from '../images/image_1.png';
-
-
 export default function About() {
 
     return (
