@@ -1,13 +1,13 @@
+import Image10 from '../images/shot_1.png';
+import Image11 from '../images/shot_2.png';
+import Image12 from '../images/shot_3.png';
+import Image14 from '../images/shot_4.png';
+import Image15 from '../images/shot_5.png';
+import Image20 from '../images/shot_20.png';
 export default function Documentation() {
 
     return (
         <div className="documentation">
-            {/* <h1>Api Documentation </h1>
-            
-            <h3>Introduction</h3>
-            <p>You can interact with the API through HTTP requests from any language, via our official Python bindings, our official Node.js library, or a community-maintained library.
-
-                To install the official Python bindings, run the following command:</p> */}
 
 <body>
     <header>
@@ -16,11 +16,7 @@ export default function Documentation() {
 
     <main>
         <section>
-            <h2>Introduction</h2>
-            <p>
-                This documentation provides information on how to use the OpenAI API to access various natural language processing models.
-                To get started, you will need an API key, which can be obtained by signing up for an account on the OpenAI website.
-            </p>
+        <img src={Image20} width="800px"alt="" />
         </section>
 
         <section>
@@ -52,7 +48,20 @@ export default function Documentation() {
                 The required parameters and data structure depend on the specific endpoint being used.
                 Please refer to the detailed documentation for each endpoint for more information.
             </p>
+            <h2>Making Requests</h2>
+            <p>
+            You can paste the command below into your terminal to run your first API request. Make sure to replace $OPENAI_API_KEY with your secret API key.
+            </p>
         </section>
+        <br />
+        <img src={Image10} width="800px"alt="" />
+        <br />
+
+        <img src={Image12} width="800px"alt="" />
+        <br />
+        <img src={Image14} width="800px"alt="" />
+        <br />
+        <img src={Image15} width="800px"alt="" />
     </main>
 
     <footer>
