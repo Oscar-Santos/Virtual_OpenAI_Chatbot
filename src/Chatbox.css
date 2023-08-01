@@ -40,7 +40,7 @@
   
   /* Chatbox messages container */
   .chatbox-messages {
-    padding: 40px;
+    padding: 20px;
     overflow-y: scroll;
     max-height: 200px;
   }
