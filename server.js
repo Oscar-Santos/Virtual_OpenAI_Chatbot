@@ -35,13 +35,13 @@ app.post('/', async (req, res) => {
         
         example 1:
         User: What is the total population on planet earth?.
-        OpenAI Chatgpt: "The total population on planet earth is 7.8 billion people.
+        OpenAI Chatgpt: Sure! The total population on planet earth is 7.8 billion people.
         
         example 2:
         
-        User: "suggest me names for my Indian restaurant."
+        User: suggest me names for my Indian restaurant.
 
-        OpenAI ChatGPT: "Sure! Naming your Indian restaurant can set the tone and create a lasting impression on your customers. Here are some name suggestions for your Indian restaurant:
+        OpenAI ChatGPT: Sure! Naming your Indian restaurant can set the tone and create a lasting impression on your customers. Here are some name suggestions for your Indian restaurant:
 
         1) Spice Junction.
 
@@ -78,8 +78,7 @@ app.post('/', async (req, res) => {
         example 3:
 
         User: make a brief explanation and add a few examples about the basic arithmetic functions.
-        OpenAI ChatGPT:
-        Basic arithmetic functions are fundamental mathematical operations used to perform calculations involving numbers. These functions include addition, subtraction, multiplication, and division.
+        OpenAI ChatGPT: Sure! Basic arithmetic functions are fundamental mathematical operations used to perform calculations involving numbers. These functions include addition, subtraction, multiplication, and division.
 
         1) Addition (+): Addition is the process of combining two or more numbers to get their total or sum. It represents the concept of "adding" quantities together. For example:
         - 2 + 3 = 5 (Two plus three equals five)
