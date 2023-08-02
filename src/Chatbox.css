@@ -1,4 +1,6 @@
-
+body {
+  background-color: #f3e8efc9;
+}
 
 /* Main container for the chatbox */
 .chatbox-container {
@@ -6,6 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    animation: animate 6s linear infinite; 
   }
   
   /* Chatbox container with gradient background and rounded corners */
@@ -14,7 +17,7 @@
     width: 100%;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    background-image: linear-gradient(120deg, #078c0f, #0a1df3);
+    background-image: linear-gradient(120deg, #13871b, #a009db);
     color: #f3eeee;
   }
   
@@ -42,27 +45,30 @@
   .chatbox-messages {
     padding: 20px;
     overflow-y: scroll;
-    max-height: 200px;
+    max-height: 283px;
   }
+
   
   /* User message */
   .user-message {
-    background-color: #f5f5f5;
-    color: #333333;
+    background-color: #d6aa81;
+    color: black;
     padding: 10px 15px;
     border-radius: 30px;
     margin-bottom: 10px;
     align-self: flex-end;
+    font-size: larger;
   }
   
   /* Bot message */
   .bot-message {
     background-color: #bc9fea;
-    color: #111011;
+    color: black;
     padding: 10px 15px;
     border-radius: 30px;
     margin-bottom: 10px;
     align-self: flex-start;
+    font-size: large;
   }
   
   /* Chatbox form */
@@ -121,7 +127,7 @@
     animation: fadeIn 0.5s ease-in-out;
   }
   
-  /* Animation for button bounce */
+  
   @keyframes buttonBounce {
     0% {
       transform: scale(1);
@@ -134,3 +140,40 @@
     }
   }
   
+
+  .chatbot-img {
+ 
+    animation: animate 6s linear infinite;
+    animation-name: bounceIn;
+  }
+
+
+  @keyframes animate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(300deg);
+    }
+  }
+
+  @keyframes bounceIn {
+    0% {
+      transform: translateY(-800px);
+    }
+    20% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(0);
+    }
+    80% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
