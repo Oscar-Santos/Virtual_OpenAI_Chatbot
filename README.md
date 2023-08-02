@@ -134,10 +134,9 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 ```
 
+## Vercel Deployment Link🟣
 
-## App Link🟣
-
-[React App Link](https://brand-craft-pro-robot-app.vercel.app/)
+[Vercel Link](https://virtual-open-ai-chatbot.vercel.app/)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
