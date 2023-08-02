@@ -1,5 +1,4 @@
 import Image10 from '../images/shot_1.png';
-import Image11 from '../images/shot_2.png';
 import Image12 from '../images/shot_3.png';
 import Image14 from '../images/shot_4.png';
 import Image15 from '../images/shot_5.png';
