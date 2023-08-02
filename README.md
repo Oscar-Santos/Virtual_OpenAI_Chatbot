@@ -1,7 +1,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # VIRTUAL OPENAI CHATBOT APP
 
-## Overview 🟣
+## Overview 🟢
 Virtual OpenAI ChatBot App is a small, yet complete full-stack application. For this app, I utilized various technologies such as React, React libraries, React Dependencies, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
 
 The highlight of this application is an interactive chatbot that leverages the powerful "Text-DaVinci-oo3" model from OpenAI. Through API calls, the chatbot engages in conversations with users, simulating interactions with a real person. To ensure security, I have implemented the Dotenv module to load environment variables and conceal my API key, as OpenAI prioritizes data protection.
@@ -13,7 +13,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 ![Screen Shot 2023-08-01 at 7 57 57 PM](https://github.com/Oscar-Santos/Virtual_OpenAI_Chatbot/assets/83252572/4b9993a2-935a-48b4-893b-a8e51a1b89a2)
 
 
-## To set up this app locally, please follow these steps:🟣
+## To set up this app locally, please follow these steps: 🟢
 
 - Clone this repository using `git clone`. 
 - Navigate to the root directory by running `cd Virtual_OpenAI_Chatbot `.
@@ -41,7 +41,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 - Then, it means that you need to obtain an API key from OpenAI. Don't worry, getting one for free is easy.
 
-## Obtaining an API key from OpenAI Chatgpt:🟣
+## Obtaining an API key from OpenAI Chatgpt: 🟢
 
 - To log in to your OpenAI account, please visit the [OpenAI site](https://openai.com/blog/chatgpt), If you don't have an account, you will need to create one.
 - Once you login, go to `API`
@@ -49,7 +49,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 - Then click on `+ Create new secret key`
 - Now, copy your `API key` and your `Organization Key`
 
-## Once you have obtained your OpenAI API key:🟣
+## Once you have obtained your OpenAI API key: 🟢
 
 - Please return to the App and open your preferred editor (e.g., `VS Code`, `Atom`, etc.) from the Virtual_OpenAI_Chatbot directory.
 - Open the `server.js` file.
@@ -62,12 +62,12 @@ Developing this application has been exciting but also challenging. I thoroughly
 - Now the App should be up and running!! Feel free to ask any question to the App and see how it responds!!
 
   
-## Framework🟣
+## Framework: 🟢
 <p>
   <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
 </p>
 
-## Languages🟣
+## Languages: 🟢
 <p>
   <img src="https://img.shields.io/badge/JavaScript-ES2021-yellow?logo=javascript" />
   </br>
@@ -77,7 +77,7 @@ Developing this application has been exciting but also challenging. I thoroughly
   </br>
 </p>
 
-## Tools🟣
+## Tools: 🟢
 <p>
   <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
   </br>
@@ -89,7 +89,7 @@ Developing this application has been exciting but also challenging. I thoroughly
   </br>
 </p>
 
-## Endpoints🟣
+## Endpoints: 🟢
 
 1)   #### Request
 `POST https://api.openai.com/v1/completions`
@@ -134,7 +134,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 ```
 
-## Vercel Deployment Link🟣
+## Vercel Deployment Link: 🟢
 
 [Vercel Link](https://virtual-open-ai-chatbot.vercel.app/)
 
