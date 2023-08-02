@@ -134,9 +134,6 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 ```
 
-## Vercel Deployment Link🟣
-
-[Vercel Link](https://brand-craft-pro-robot-app.vercel.app/)
 
 ## App Link🟣
 
