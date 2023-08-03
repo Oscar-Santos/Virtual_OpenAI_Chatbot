@@ -1,7 +1,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 # VIRTUAL OPENAI CHATBOT APP
 
-## Overview 🟢 🟠
+## Overview 🟢 
 Virtual OpenAI ChatBot App is a small, yet complete full-stack application. For this app, I utilized various technologies such as React, React libraries, React Dependencies, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
 
 The highlight of this application is an interactive chatbot that leverages the powerful "Text-DaVinci-oo3" model from OpenAI. Through API calls, the chatbot engages in conversations with users, simulating interactions with a real person. To ensure security, I have implemented the Dotenv module to load environment variables and conceal my API key, as OpenAI prioritizes data protection.
