@@ -17,11 +17,11 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 - Clone this repository using `git clone`. 
 - Navigate to the root directory by running `cd Virtual_OpenAI_Chatbot `.
-- Open one terminal for the `Virtual_OpenAI_Chatbot `.
 - In the terminal, run `npm run dev`.
 - After running 'npm run dev', if you encounter this error:
 
-![Screen Shot 2023-07-06 at 10 17 57 AM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/1240aa47-1251-4179-a3db-3f0cd00a6c06)
+<img width="1248" alt="Screen Shot 2023-08-03 at 9 46 39 AM" src="https://github.com/Oscar-Santos/Virtual_OpenAI_Chatbot/assets/83252572/2f02f889-6ab3-4744-bc53-42e3e56213f2">
+
 
 - Then ensure that you have Node.js and npm (Node Package Manager) installed on your system. You can check this by running the following commands in your terminal or command prompt:
   </br>
@@ -31,13 +31,11 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 - If these commands return the version numbers, it means Node.js and npm are installed. If not, you will need to install them from the official Node.js website [Node](https://nodejs.org).
   
-- After this, run the following command in your terminal `npm install`
-- Then, run the following command in your terminal `npm i -D concurrently` :
+- After this, run the following command in your terminal `npm install`.
 - Once this installation is complete, run `npm run dev` in your terminal.
-- Then you would have the App running from the Front-End, and from the Back-End, and ready to use it.
 - However if you ask a question to the chatbot and the terminal gives you this error:
 
-  ![Screen Shot 2023-07-06 at 1 30 02 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/332c93f7-9d11-4d66-b90e-8c1d8411a467)
+<img width="1280" alt="Screen Shot 2023-08-03 at 9 55 38 AM" src="https://github.com/Oscar-Santos/Virtual_OpenAI_Chatbot/assets/83252572/bfeac1df-db37-4155-8ad8-3eccd22d552a">
 
 - Then, it means that you need to obtain an API key from OpenAI. Don't worry, getting one for free is easy.
 
