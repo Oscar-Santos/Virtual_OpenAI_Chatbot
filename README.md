@@ -137,9 +137,6 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 [Vercel Link](https://virtual-open-ai-chatbot.vercel.app/)
 
-[Lets go to Quora](https://www.quora.com)
-
-[Lets go to Quora](https://www.quora.com)
 
 
 
