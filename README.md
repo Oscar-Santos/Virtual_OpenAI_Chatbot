@@ -37,6 +37,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 <img width="1280" alt="Screen Shot 2023-08-03 at 9 55 38 AM" src="https://github.com/Oscar-Santos/Virtual_OpenAI_Chatbot/assets/83252572/bfeac1df-db37-4155-8ad8-3eccd22d552a">
 
+</br>
 - Then, it means that you need to obtain an API key from OpenAI. Don't worry, getting one for free is easy.
 
 ## Obtaining an API key from OpenAI Chatgpt: 🟢
