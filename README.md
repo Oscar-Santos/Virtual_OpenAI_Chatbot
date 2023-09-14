@@ -135,7 +135,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 ## Vercel Deployment Link: 🟢
 
-[Vercel Link](https://virtual-open-ai-chatbot.vercel.app/)
+[Vercel Link](https://virtual-open-ai-chatbot-k4odgur73-oscar-santos.vercel.app/)
 
 
 
